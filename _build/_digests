@@ -1,0 +1,5 @@
+"Rule: ocaml: cmx* & o* -> native (%=unary_sub_parser )": "\149\150i\225\195\157\b\179\001\220\206;Sa\194v"
+"Rule: ocaml dependencies ml (%=unary_sub_parser )": "\155\017\190\023F\150V\n\138bBi\135oQY"
+"Rule: ocaml: ml & cmi -> cmx & o (%=unary_sub_parser )": "\233j\235\244\199\227~9\143w\203\171\239\157YW"
+"Rule: ocaml: ml -> cmo & cmi (%=unary_sub_parser )": "\030\174(\142$\204+'\014\167\227\142\2353F\249"
+"Resource: /goinfre/ckatz/Desktop/ft_turing/unary_sub_parser.ml": "I\180\027\b[\136\005%\254\015`V\157\173\164\b"

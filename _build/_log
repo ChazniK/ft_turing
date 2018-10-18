@@ -1,0 +1,11 @@
+### Starting build.
+# Target: unary_sub_parser.ml.depends, tags: { extension:ml, file:unary_sub_parser.ml, ocaml, ocamldep, quiet }
+ocamldep.opt -modules unary_sub_parser.ml > unary_sub_parser.ml.depends
+# Target: unary_sub_parser.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:unary_sub_parser.cmo, file:unary_sub_parser.ml, implem, ocaml, quiet }
+ocamlc.opt -c -I /goinfre/ckatz/.opam/default/lib/biniou -I /goinfre/ckatz/.opam/default/lib/easy-format -I /goinfre/ckatz/.opam/default/lib/yojson -o unary_sub_parser.cmo unary_sub_parser.ml
++ ocamlc.opt -c -I /goinfre/ckatz/.opam/default/lib/biniou -I /goinfre/ckatz/.opam/default/lib/easy-format -I /goinfre/ckatz/.opam/default/lib/yojson -o unary_sub_parser.cmo unary_sub_parser.ml
+File "unary_sub_parser.ml", line 21, characters 72-117:
+Error: The function applied to this argument has type 'a list -> 'b list
+This argument cannot be applied with label ~f
+Command exited with code 2.
+# Compilation unsuccessful.
